@@ -100,6 +100,14 @@ static const Rule rules[] = {
 	{"org-wellkord-globonote-Main", NULL,     NULL,        0,            1,           -1},
 	{"Peek", NULL,     NULL,        0,            1,           -1},
 	{"ROX-Filer", NULL,     NULL,        0,            0,           -1},
+	{"Internet Explorer", NULL,     NULL,        2,            0,           -1},
+	{"Selfservice", NULL,     NULL,        2,            0,           -1},
+	{"Wfica_Splash", NULL,     NULL,        2,            0,           -1},
+	{"Wfica", NULL,     NULL,        2,            0,           -1},
+	{"CUI", NULL,     NULL,        3,            0,           -1}, //tag 3
+	{"InitPanel_popup", NULL,     NULL,        2,            0,           -1},
+	{"Windows Security", NULL,     NULL,        2,            0,           -1},
+	{"Google-chrome", NULL,     NULL,        1,            0,           -1},
 };
 
 /* layout(s) */
