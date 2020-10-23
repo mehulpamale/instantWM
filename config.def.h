@@ -107,6 +107,7 @@ static const Rule rules[] = {
 	{"CUI", NULL,     NULL,        3,            0,           -1}, //tag 3
 	{"InitPanel_popup", NULL,     NULL,        2,            0,           -1},
 	{"Windows Security", NULL,     NULL,        2,            0,           -1},
+	//{"jetbrains-studio", NULL,     NULL,        2,            0,           -1},
 	//{"Google-chrome", NULL,     NULL,        1,            0,           -1},
 };
 
