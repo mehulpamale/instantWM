@@ -151,6 +151,7 @@ static char instantmenumon[2] = "0"; /* component of instantmenucmd, manipulated
 static const char *instantmenucmd[] = {"instantmenu_run", NULL};
 static const char *clipmenucmd[] = {"instantclipmenu", NULL};
 static const char *smartcmd[] = {"instantmenu_smartrun", NULL};
+static const char *ideacmd[] = {"/mobile_dev/idea-IC-202.7660.26/bin/idea.sh", NULL};
 static const char *instantmenustcmd[] = {"instantmenu_run_st", NULL};
 static const char *termcmd[] = {".config/instantos/default/terminal", NULL};
 static const char *termscratchcmd[] = {".config/instantos/default/terminal", "-c", scratchpadname, NULL};
@@ -256,6 +257,7 @@ static Key dkeys[] = {
 	{0, XK_Tab, spawn, {.v = caretinstantswitchcmd} },
 	{0, XK_c, spawn, {.v = codecmd} },
 	{0, XK_y, spawn, {.v = smartcmd} },
+	{0, XK_i, spawn, {.v = ideacmd} },
 	{0, XK_v, spawn, {.v = quickmenucmd} },
 
 	{0, XK_h,   viewtoleft,     {0}},
