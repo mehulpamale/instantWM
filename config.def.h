@@ -154,7 +154,7 @@ static const char *clipmenucmd[] = {"instantclipmenu", NULL};
 static const char *smartcmd[] = {"instantmenu_smartrun", NULL};
 static const char *ideacmd[] = {"/mobile_dev/idea-IC-202.7660.26/bin/idea.sh", NULL};
 static const char *slimjetcmd[] = {"flashpeak-slimjet", NULL};
-static const char *androidstudiocmd[] = {"/mobile_dev/JetBrains/Toolbox/apps/AndroidStudio/ch-0/201.6858069/bin/studio.sh", NULL};
+static const char *androidstudiocmd[] = {"/mobile_dev/JetBrains/Toolbox/apps/AndroidStudio/ch-1/201.6858069/bin/studio.sh", NULL};
 static const char *discortcmd[] = {"discord", NULL};
 static const char *instantmenustcmd[] = {"instantmenu_run_st", NULL};
 static const char *termcmd[] = {".config/instantos/default/terminal", NULL};
@@ -263,7 +263,7 @@ static Key dkeys[] = {
 	{0, XK_y, spawn, {.v = smartcmd} },
 	{0, XK_i, spawn, {.v = ideacmd} },
 	{0, XK_s, spawn, {.v = slimjetcmd} },
-	{0, XK_S, spawn, {.v = androidstudiocmd} },
+	{ShiftMask, XK_s, spawn, {.v = androidstudiocmd} },
 	{0, XK_d, spawn, {.v = discortcmd} },
 	{0, XK_v, spawn, {.v = quickmenucmd} },
 
