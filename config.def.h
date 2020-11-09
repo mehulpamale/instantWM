@@ -416,6 +416,7 @@ static Key keys[] = {
 	{0, XF86XK_MonBrightnessDown, spawn, {.v = downbright}},
 	{0, XF86XK_AudioLowerVolume, spawn, {.v = downvol}},
 	{0, XF86XK_AudioMute, spawn, {.v = mutevol}},
+	{MODKEY | ControlMask, XK_m, spawn, {.v = mutevol}},
 	{0, XF86XK_AudioRaiseVolume, spawn, {.v = upvol}},
 	{0, XF86XK_AudioPlay, spawn, {.v = playerpause}},
 	{0, XF86XK_AudioPause, spawn, {.v = playerpause}},
