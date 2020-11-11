@@ -104,13 +104,17 @@ static const Rule rules[] = {
 	{"Selfservice", NULL,     NULL,        2,            0,           -1},
 	{"Wfica_Splash", NULL,     NULL,        2,            0,           -1},
 	{"Wfica", NULL,     NULL,        2,            0,           -1},
-	{"CUI", NULL,     NULL,        3,            0,           -1}, //tag 3
+	{"CUI", "CUI",     "CUI",        3,            0,           -1}, 
 	{"InitPanel_popup", NULL,     NULL,        2,            0,           -1},
 	{"Windows Security", NULL,     NULL,        2,            0,           -1},
 	{"PrimaryAuthManager", NULL,     NULL,        2,            0,           -1},
+	{"discord", "discord",     "Discord",        4,            0,           -1},
+	{"Discord", NULL,     "Discord",        4,            0,           -1},
 	//{"jetbrains-studio", NULL,     NULL,        2,            0,           -1},
 	//{"Google-chrome", NULL,     NULL,        1,            0,           -1},
 };
+
+
 
 /* layout(s) */
 static const float mfact = 0.55;  /* factor of master area size [0.05..0.95] */
