@@ -110,6 +110,7 @@ static const Rule rules[] = {
 	{"PrimaryAuthManager", NULL,     NULL,        2,            0,           -1},
 	{"discord", "discord",     "Discord",        4,            0,           -1},
 	{"Discord", NULL,     "Discord",        4,            0,           -1},
+	{"MF_systray", NULL,     NULL,        4,            0,           -1},
 	//{"jetbrains-studio", NULL,     NULL,        2,            0,           -1},
 	//{"Google-chrome", NULL,     NULL,        1,            0,           -1},
 };
